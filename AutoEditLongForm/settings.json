@@ -1,0 +1,100 @@
+{
+  "_help": "Edit values here to change every future edit. To change ONE video only, copy any section into <content>\\_autoedit\\settings.json. See GUIDE.md.",
+
+  "zoom": {
+    "_help": "Every image zooms between min and max (1.00 = 100%). Shots alternate zoom-in / zoom-out. easing 'ease' = smooth start/stop, 'linear' = constant speed. fill_frame removes the thin black bars from images that are not exactly 16:9. smart_detection = auto-detect when to keep images static based on complexity.",
+    "min": 1.00,
+    "max": 1.20,
+    "alternate": true,
+    "easing": "ease",
+    "fill_frame": true,
+    "smart_detection": true,
+    "static_keywords": ["list", "multiple", "several", "comparison", "chart", "diagram", "numbered", "options", "choices", "examples"],
+    "slow_zoom_keywords": ["complex", "detailed", "intricate", "many"],
+    "slow_zoom_factor": 0.6
+  },
+
+  "timing": {
+    "_help": "lead_in_s: cut to the next image this many seconds before its first word. tail_s: extra seconds of picture + music after the voice ends.",
+    "lead_in_s": 0.15,
+    "tail_s": 2.0,
+    "warn_shot_longer_than_s": 12
+  },
+
+  "voice": {
+    "_help": "Voice is turned up/down to target_db (about -16 = YouTube-friendly), but never so far that peaks go above max_peak_db.",
+    "normalize": true,
+    "target_db": -16.0,
+    "max_peak_db": -1.5
+  },
+
+  "music": {
+    "_help": "under_voice_db: how much quieter the music is than the voice (research: 18-24 for narrated videos, bigger = quieter). Music changes with the mood of each guide section.",
+    "enabled": true,
+    "folder": "Library/Music/Informative",
+    "under_voice_db": 22,
+    "crossfade_s": 1.5,
+    "min_cue_s": 30,
+    "end_fade_s": 3.0,
+    "default_mood": "Curious",
+    "mood_keywords": {
+      "_help": "Whole words; a word ending in * matches anything starting with it (celebrat* = celebrate, celebration). Section title counts most, then the Mood lines, then image descriptions.",
+      "Serious": ["somber", "sad", "grim", "tragic", "tragedy", "war", "wars", "battle*", "soldier*", "loss", "death*", "dead", "dying", "mourn*", "grief", "solemn", "sorrow*", "brutal", "sacrifice*", "heavy"],
+      "Mystery": ["mystery", "mysteries", "mysterious", "menacing", "ominous", "tense", "tension", "suspense*", "strange", "secret*", "warning", "uncertain*", "debated", "puzzl*", "unknown", "eerie"],
+      "Historical": ["ancient", "medieval", "victorian", "pharaoh*", "egypt*", "roman", "rome", "greek", "renaissance", "predynastic", "dynast*", "empire", "tomb*", "billiard*"],
+      "Upbeat": ["playful", "lively", "upbeat", "fun", "cheerful", "celebrat*", "triumph*", "energetic", "hopeful", "optimistic", "light-hearted", "cta", "subscribe", "promo"],
+      "Calm": ["calm", "quiet", "reflective", "thoughtful", "gentle", "contemplative", "wonder", "peaceful", "steady", "answer", "conclusion"],
+      "Curious": ["curious", "curiosity", "discover*", "intrigu*", "investigat*", "question", "myth*", "surpris*", "fascinat*", "clue*"]
+    }
+  },
+
+  "sfx": {
+    "_help": "levels_db: loudness of each sound category compared with the voice (0 = as loud as the voice, -6 = quieter). Folders live in Library/SFX/<Category>.",
+    "enabled": true,
+    "folder": "Library/SFX",
+    "levels_db": {"Whoosh": -6, "Pop": -7, "Ding": -4, "Riser": -5, "Camera": -3, "Impact": -3},
+    "whoosh_on_section_change": true,
+    "pop_on_text": true,
+    "riser_before_sections_named": ["ANSWER", "CONCLUSION", "VERDICT", "REVEAL", "TRUTH"],
+    "ding_on_subscribe_and_like": true,
+    "image_keywords": {
+      "_help": "If a beat's image description (Action line) contains one of these words, play that sound when the image appears.",
+      "check-mark|checkmark|check mark|tick mark": "Ding/answer-correct.mp3",
+      "phone screen|photo of|camera flash": "Camera/camera-shutter.mp3",
+      "explosion|explod|spark": "Impact"
+    },
+    "same_sound_min_gap_s": 10
+  },
+
+  "list_reveals": {
+    "_help": "Progressive reveal animation for list items (apple, banana, mango). Detects enumerated items and reveals them one by one as narrated. Boosts retention 20-30% according to research.",
+    "enabled": true,
+    "detect_patterns": ["\\band\\b.*,", ", and", "first.*second.*third", "one.*two.*three", "\\d+[.)]\\s+", "• ", "\\*\\s+"],
+    "min_items": 2,
+    "max_items_per_beat": 5,
+    "cover_color": [1.0, 1.0, 1.0],
+    "cover_opacity": 0.95,
+    "reveal_duration_frames": 8,
+    "pop_sound": true
+  },
+
+  "text": {
+    "_help": "Labels are created automatically the first time (names, dates, numbers, title, subscribe). Then edit <content>\\_autoedit\\texts.json to change them.",
+    "enabled": true,
+    "font": "C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/7148699606082130433/9b03aa8db4f8d431e15f1660108d512b/Rubik-Bold.ttf",
+    "font_fallback": "Library/Fonts/Rubik-Bold.ttf",
+    "font_resource_id": "7148699606082130433",
+    "color": [1.0, 1.0, 1.0],
+    "stroke_color": [0.0, 0.0, 0.0],
+    "stroke_width": 0.08,
+    "label_scale": 0.62,
+    "title_scale": 0.78,
+    "lower_y": -0.74,
+    "max_on_screen_s": 5.0,
+    "min_on_screen_s": 1.3,
+    "min_gap_between_labels_s": 2.0,
+    "auto": {"title": true, "names": true, "numbers": true, "cta": true}
+  },
+
+  "whisper_model": "small"
+}

@@ -1,0 +1,113 @@
+{
+  "_help": "AutoEditShortForm settings - customize your viral clip generation",
+
+  "captions": {
+    "_help": "Animated captions settings - word-by-word viral TikTok style",
+    "enabled": true,
+    "style": "viral",
+    "font": "Arial-Bold",
+    "font_size": 80,
+    "color": "#FFD700",
+    "outline_color": "#000000",
+    "outline_width": 6,
+    "animation": "pop",
+    "words_per_caption": 3,
+    "position": "center",
+    "uppercase": true
+  },
+
+  "speed": {
+    "_help": "Speed ramping for dynamic pacing - speeds up boring parts, slows highlights",
+    "enabled": true,
+    "normal": 1.0,
+    "fast": 1.75,
+    "slow": 0.65,
+    "detect_highlights": true,
+    "silence_speed": 2.0
+  },
+
+  "zoom": {
+    "_help": "Zoom effects on key moments - punches in on reactions",
+    "enabled": true,
+    "amount": 1.15,
+    "duration_frames": 10,
+    "on_keywords": true,
+    "smooth": true
+  },
+
+  "crop": {
+    "_help": "Video cropping to vertical 9:16 format",
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "track_face": false,
+    "track_action": false,
+    "position": "center"
+  },
+
+  "silence_removal": {
+    "_help": "Remove dead air and silent moments (requires audio analysis - Phase 2)",
+    "enabled": false,
+    "threshold_db": -40,
+    "min_silence_ms": 500,
+    "buffer_ms": 100
+  },
+
+  "clip_selection": {
+    "_help": "How to select the best moments from long video",
+    "min_duration_s": 25,
+    "max_duration_s": 60,
+    "target_duration_s": 45,
+    "energy_threshold": 0.6,
+    "keyword_boost": true,
+    "keywords": [
+      "oh my god",
+      "let's go",
+      "what the",
+      "no way",
+      "insane",
+      "crazy",
+      "holy",
+      "wow",
+      "sick",
+      "bruh",
+      "damn",
+      "dude",
+      "wait",
+      "look at",
+      "check this",
+      "watch this",
+      "clutch",
+      "killed",
+      "dead",
+      "gg",
+      "ez"
+    ]
+  },
+
+  "output": {
+    "_help": "Output video settings",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "codec": "h264",
+    "quality": "high",
+    "format": "mp4",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": "48000"
+  },
+
+  "transcription": {
+    "_help": "Whisper AI transcription settings",
+    "model_size": "base",
+    "language": "en",
+    "word_timestamps": true
+  },
+
+  "effects": {
+    "_help": "Additional effects (Phase 2 features)",
+    "background_music": false,
+    "sound_effects": false,
+    "transitions": false,
+    "filters": "none"
+  }
+}

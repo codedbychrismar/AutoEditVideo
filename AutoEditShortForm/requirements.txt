@@ -1,0 +1,18 @@
+# AutoEditShortForm - Python Dependencies
+
+# Core dependencies
+numpy>=1.21.0
+openai-whisper>=20230124
+
+# Video/Audio processing (requires FFmpeg separately)
+# FFmpeg must be installed: https://ffmpeg.org/
+
+# Optional dependencies for advanced features
+# Uncomment these as you add more features:
+
+# pydub>=0.25.1              # Audio manipulation
+# opencv-python>=4.7.0       # Video processing, face tracking
+# moviepy>=1.0.3             # Alternative video editing
+# pillow>=9.0.0              # Image processing for thumbnails
+# librosa>=0.10.0            # Audio analysis for highlight detection
+# scipy>=1.9.0               # Scientific computing for audio energy

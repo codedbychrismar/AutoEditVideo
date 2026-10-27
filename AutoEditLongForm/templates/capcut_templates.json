@@ -1,0 +1,930 @@
+{
+ "capcut_version": "9.6",
+ "video": {
+  "segment": {
+   "id": "82787BE3-B91A-479b-9F55-8BEE6453A714",
+   "source_timerange": {
+    "start": 0,
+    "duration": 3800000
+   },
+   "target_timerange": {
+    "start": 4066666,
+    "duration": 3800000
+   },
+   "render_timerange": {
+    "start": 0,
+    "duration": 0
+   },
+   "desc": "",
+   "state": 0,
+   "speed": 1.0,
+   "is_loop": false,
+   "is_tone_modify": false,
+   "reverse": false,
+   "intensifies_audio": false,
+   "cartoon": false,
+   "volume": 1.0,
+   "last_nonzero_volume": 1.0,
+   "clip": {
+    "scale": {
+     "x": 1.0,
+     "y": 1.0
+    },
+    "rotation": 0.0,
+    "transform": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "flip": {
+     "vertical": false,
+     "horizontal": false
+    },
+    "alpha": 1.0
+   },
+   "uniform_scale": {
+    "on": true,
+    "value": 1.0
+   },
+   "material_id": "2E2F5E1C-A42F-472b-9AF0-BABEE5309CC8",
+   "extra_material_refs": [
+    "6FC31B7C-B3FD-41c3-98A9-9ED24331F34D",
+    "2389553C-759E-419f-94CC-DDD0C2A947D0",
+    "95893098-1712-4bc1-8939-CED2100AB7D6",
+    "4606D9A5-611A-4d42-B91A-2AEF89AEE765",
+    "D6F299A5-1012-468e-82BB-BC564A8BD39B",
+    "EF2160F2-FB2E-4ca8-A689-8529226BB5BD",
+    "12C3DB1D-DC16-4c19-8A9C-F9E68CC79AFF",
+    "4856DF6A-8F54-43e5-96C2-DEA5555BA0F2"
+   ],
+   "render_index": 0,
+   "keyframe_refs": [],
+   "enable_lut": true,
+   "enable_adjust": true,
+   "enable_hsl": false,
+   "visible": true,
+   "group_id": "",
+   "enable_color_curves": true,
+   "enable_hsl_curves": true,
+   "track_render_index": 0,
+   "hdr_settings": {
+    "mode": 1,
+    "intensity": 1.0,
+    "nits": 1000
+   },
+   "hdr_vivid_settings": null,
+   "enable_color_wheels": true,
+   "track_attribute": 0,
+   "is_placeholder": false,
+   "template_id": "",
+   "enable_smart_color_adjust": false,
+   "template_scene": "default",
+   "common_keyframes": [
+    {
+     "id": "EB46461E-1FEC-42be-A29D-257165EF4A3A",
+     "material_id": "",
+     "property_type": "KFTypeScaleX",
+     "keyframe_list": [
+      {
+       "id": "FA774591-7F3C-456f-83CD-8D11E42B8F0D",
+       "curveType": "Line",
+       "time_offset": 0,
+       "left_control": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "right_control": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "values": [
+        1.15
+       ],
+       "string_value": "",
+       "graphID": ""
+      },
+      {
+       "id": "38AB7D25-C555-4512-AA84-076597082E92",
+       "curveType": "Line",
+       "time_offset": 3766667,
+       "left_control": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "right_control": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "values": [
+        1.0
+       ],
+       "string_value": "",
+       "graphID": ""
+      }
+     ]
+    }
+   ],
+   "caption_info": null,
+   "responsive_layout": {
+    "enable": false,
+    "target_follow": "",
+    "size_layout": 0,
+    "horizontal_pos_layout": 0,
+    "vertical_pos_layout": 0
+   },
+   "enable_color_match_adjust": false,
+   "enable_color_correct_adjust": false,
+   "enable_adjust_mask": false,
+   "raw_segment_id": "",
+   "lyric_keyframes": null,
+   "enable_video_mask": true,
+   "digital_human_template_group_id": "",
+   "color_correct_alg_result": "",
+   "source": "segmentsourcenormal",
+   "enable_mask_stroke": false,
+   "enable_mask_shadow": false,
+   "enable_color_adjust_pro": false,
+   "segment_color_tag": ""
+  },
+  "material": {
+   "id": "2E2F5E1C-A42F-472b-9AF0-BABEE5309CC8",
+   "unique_id": "99dfde7ebf79eb5a103301138382572f",
+   "type": "photo",
+   "duration": 10800000000,
+   "path": "C:/Users/chris/Desktop/YT Automation/Blood & Omertà/Content/Content 1/Pictures/0002_20261012210454.jpg",
+   "media_path": "",
+   "local_id": "",
+   "has_audio": false,
+   "reverse_path": "",
+   "intensifies_path": "",
+   "reverse_intensifies_path": "",
+   "intensifies_audio_path": "",
+   "cartoon_path": "",
+   "width": 1376,
+   "height": 768,
+   "category_id": "",
+   "category_name": "local",
+   "material_id": "",
+   "material_name": "0002_20261012210454.jpg",
+   "material_url": "",
+   "crop": {
+    "upper_left_x": 0.0,
+    "upper_left_y": 0.0,
+    "upper_right_x": 1.0,
+    "upper_right_y": 0.0,
+    "lower_left_x": 0.0,
+    "lower_left_y": 1.0,
+    "lower_right_x": 1.0,
+    "lower_right_y": 1.0
+   },
+   "crop_ratio": "free",
+   "audio_fade": null,
+   "crop_scale": 1.0,
+   "extra_type_option": 0,
+   "stable": {
+    "stable_level": 0,
+    "matrix_path": "",
+    "time_range": {
+     "start": 0,
+     "duration": 0
+    }
+   },
+   "matting": {
+    "flag": 0,
+    "path": "",
+    "interactiveTime": [],
+    "has_use_quick_brush": false,
+    "strokes": [],
+    "has_use_quick_eraser": false,
+    "expansion": 0,
+    "feather": 0,
+    "reverse": false,
+    "custom_matting_id": "",
+    "enable_matting_stroke": false,
+    "is_clould": false,
+    "mask_video_path": "",
+    "cloud_product_fps": 0.0
+   },
+   "source": 0,
+   "source_platform": 0,
+   "formula_id": "",
+   "check_flag": 62978047,
+   "video_algorithm": {
+    "algorithms": [],
+    "time_range": null,
+    "path": "",
+    "gameplay_configs": [],
+    "ai_in_painting_config": [],
+    "complement_frame_config": null,
+    "motion_blur_config": null,
+    "deflicker": null,
+    "noise_reduction": null,
+    "quality_enhance": null,
+    "super_resolution": null,
+    "ai_background_configs": [],
+    "smart_complement_frame": null,
+    "aigc_generate": null,
+    "aigc_generate_list": [],
+    "mouth_shape_driver": null,
+    "ai_expression_driven": null,
+    "ai_motion_driven": null,
+    "image_interpretation": null,
+    "story_video_modify_video_config": {
+     "task_id": "",
+     "is_overwrite_last_video": false,
+     "tracker_task_id": "",
+     "generate_id": "",
+     "generate_card_id": ""
+    },
+    "skip_algorithm_index": []
+   },
+   "is_unified_beauty_mode": false,
+   "is_set_beauty_mode": false,
+   "object_locked": null,
+   "smart_motion": null,
+   "multi_camera_info": null,
+   "freeze": null,
+   "picture_from": "none",
+   "picture_set_category_id": "",
+   "picture_set_category_name": "",
+   "team_id": "",
+   "local_material_id": "",
+   "origin_material_id": "",
+   "request_id": "",
+   "has_sound_separated": false,
+   "is_text_edit_overdub": false,
+   "is_ai_generate_content": false,
+   "is_video_copilot_aigc_content": false,
+   "aigc_type": "none",
+   "is_copyright": false,
+   "aigc_history_id": "",
+   "aigc_item_id": "",
+   "local_material_from": "",
+   "smart_match_info": null,
+   "beauty_face_preset_infos": [],
+   "beauty_body_preset_id": "",
+   "beauty_face_auto_preset": {
+    "preset_id": "",
+    "name": "",
+    "rate_map": "",
+    "scene": ""
+   },
+   "beauty_face_auto_preset_infos": [],
+   "beauty_body_auto_preset": null,
+   "live_photo_timestamp": -1,
+   "live_photo_cover_path": "",
+   "content_feature_info": null,
+   "corner_pin": null,
+   "surface_trackings": [],
+   "video_mask_stroke": {
+    "resource_id": "",
+    "path": "",
+    "type": "",
+    "color": "",
+    "size": 0.0,
+    "alpha": 0.0,
+    "distance": 0.0,
+    "texture": 0.0,
+    "horizontal_shift": 0.0,
+    "vertical_shift": 0.0
+   },
+   "video_mask_shadow": {
+    "resource_id": "",
+    "path": "",
+    "color": "",
+    "alpha": 0.0,
+    "blur": 0.0,
+    "distance": 0.0,
+    "angle": 0.0
+   },
+   "pre_applied_vip_materials": [],
+   "workflow_node_id": ""
+  },
+  "extras": [
+   {
+    "category": "speeds",
+    "object": {
+     "id": "6FC31B7C-B3FD-41c3-98A9-9ED24331F34D",
+     "type": "speed",
+     "mode": 0,
+     "speed": 1.0,
+     "curve_speed": null
+    }
+   },
+   {
+    "category": "placeholder_infos",
+    "object": {
+     "id": "2389553C-759E-419f-94CC-DDD0C2A947D0",
+     "type": "placeholder_info",
+     "meta_type": "none",
+     "res_path": "",
+     "res_text": "",
+     "error_path": "",
+     "error_text": ""
+    }
+   },
+   {
+    "category": "canvases",
+    "object": {
+     "id": "95893098-1712-4bc1-8939-CED2100AB7D6",
+     "type": "canvas_color",
+     "color": "",
+     "blur": 0.0,
+     "image": "",
+     "album_image": "",
+     "image_id": "",
+     "image_name": "",
+     "source_platform": 0,
+     "team_id": ""
+    }
+   },
+   {
+    "category": "material_animations",
+    "object": {
+     "id": "4606D9A5-611A-4d42-B91A-2AEF89AEE765",
+     "type": "sticker_animation",
+     "animations": [],
+     "multi_language_current": "none"
+    }
+   },
+   {
+    "category": "sound_channel_mappings",
+    "object": {
+     "id": "D6F299A5-1012-468e-82BB-BC564A8BD39B",
+     "type": "none",
+     "audio_channel_mapping": 0,
+     "is_config_open": false
+    }
+   },
+   {
+    "category": "material_colors",
+    "object": {
+     "id": "EF2160F2-FB2E-4ca8-A689-8529226BB5BD",
+     "is_color_clip": false,
+     "is_gradient": false,
+     "solid_color": "",
+     "gradient_colors": [],
+     "gradient_percents": [],
+     "gradient_angle": 90.0,
+     "width": 0.0,
+     "height": 0.0
+    }
+   },
+   {
+    "category": "loudnesses",
+    "object": {
+     "id": "12C3DB1D-DC16-4c19-8A9C-F9E68CC79AFF",
+     "enable": false,
+     "time_range": null,
+     "file_id": "",
+     "target_loudness": 0.0,
+     "loudness_param": null
+    }
+   },
+   {
+    "category": "vocal_separations",
+    "object": {
+     "id": "4856DF6A-8F54-43e5-96C2-DEA5555BA0F2",
+     "type": "vocal_separation",
+     "choice": 0,
+     "removed_sounds": [],
+     "time_range": null,
+     "production_path": "",
+     "final_algorithm": "",
+     "enter_from": ""
+    }
+   }
+  ]
+ },
+ "audio": {
+  "segment": {
+   "id": "2E4B3BE4-B737-4780-8A00-1330191299F0",
+   "source_timerange": {
+    "start": 0,
+    "duration": 1833333
+   },
+   "target_timerange": {
+    "start": 0,
+    "duration": 1833333
+   },
+   "render_timerange": {
+    "start": 0,
+    "duration": 0
+   },
+   "desc": "",
+   "state": 0,
+   "speed": 1.0,
+   "is_loop": false,
+   "is_tone_modify": false,
+   "reverse": false,
+   "intensifies_audio": false,
+   "cartoon": false,
+   "volume": 1.0,
+   "last_nonzero_volume": 1.0,
+   "clip": null,
+   "uniform_scale": null,
+   "material_id": "4C67BA7C-52BD-423d-A400-113C289FC292",
+   "extra_material_refs": [
+    "AD871B51-A6DB-40f6-8761-94068C0AA966",
+    "AE6610CA-0D6B-4e34-99FC-5B8EBBD01586",
+    "43E43AD5-6BA9-4b0e-BD4A-697D06BB6557",
+    "C89AC123-62E7-4388-AE9F-AD45D8DCBFE2",
+    "8DAB44C7-6AE7-47be-8636-C0CA44515F3E"
+   ],
+   "render_index": 0,
+   "keyframe_refs": [],
+   "enable_lut": false,
+   "enable_adjust": false,
+   "enable_hsl": false,
+   "visible": true,
+   "group_id": "",
+   "enable_color_curves": true,
+   "enable_hsl_curves": true,
+   "track_render_index": 6,
+   "hdr_settings": null,
+   "hdr_vivid_settings": null,
+   "enable_color_wheels": true,
+   "track_attribute": 0,
+   "is_placeholder": false,
+   "template_id": "",
+   "enable_smart_color_adjust": false,
+   "template_scene": "default",
+   "common_keyframes": [],
+   "caption_info": null,
+   "responsive_layout": {
+    "enable": false,
+    "target_follow": "",
+    "size_layout": 0,
+    "horizontal_pos_layout": 0,
+    "vertical_pos_layout": 0
+   },
+   "enable_color_match_adjust": false,
+   "enable_color_correct_adjust": false,
+   "enable_adjust_mask": false,
+   "raw_segment_id": "",
+   "lyric_keyframes": null,
+   "enable_video_mask": true,
+   "digital_human_template_group_id": "",
+   "color_correct_alg_result": "",
+   "source": "segmentsourcenormal",
+   "enable_mask_stroke": false,
+   "enable_mask_shadow": false,
+   "enable_color_adjust_pro": false,
+   "segment_color_tag": ""
+  },
+  "material": {
+   "id": "4C67BA7C-52BD-423d-A400-113C289FC292",
+   "unique_id": "cc1c2bce364dc064beeabe46ba7a2144",
+   "type": "extract_music",
+   "name": "Script 1.mp3",
+   "duration": 332433333,
+   "path": "C:/Users/chris/Desktop/YT Automation/Source Curiosity/Content 7 - Cheese - (EDIT)/Script 1.mp3",
+   "category_name": "local",
+   "wave_points": [],
+   "music_id": "dcea7b92-9d37-4684-b7c5-3efde8bec9dd",
+   "app_id": 0,
+   "text_id": "",
+   "tone_type": "",
+   "source_platform": 0,
+   "video_id": "",
+   "effect_id": "",
+   "resource_id": "",
+   "third_resource_id": "",
+   "category_id": "",
+   "intensifies_path": "",
+   "formula_id": "",
+   "check_flag": 1,
+   "team_id": "",
+   "local_material_id": "822cc59c-c7ca-4682-8da2-1b6d958467ba",
+   "tone_speaker": "",
+   "mock_tone_speaker": "",
+   "tone_effect_id": "",
+   "tone_effect_name": "",
+   "tone_platform": "",
+   "cloned_model_type": "",
+   "tone_category_id": "",
+   "tone_category_name": "",
+   "tone_second_category_id": "",
+   "tone_second_category_name": "",
+   "tone_emotion_name_key": "",
+   "tone_emotion_style": "",
+   "tone_emotion_role": "",
+   "tone_emotion_selection": "",
+   "tone_emotion_scale": 0.0,
+   "moyin_emotion": "",
+   "request_id": "",
+   "query": "",
+   "search_id": "",
+   "sound_separate_type": "",
+   "is_text_edit_overdub": false,
+   "is_ugc": false,
+   "is_ai_clone_tone": false,
+   "is_ai_clone_tone_post": false,
+   "source_from": "",
+   "copyright_limit_type": "none",
+   "aigc_history_id": "",
+   "aigc_item_id": "",
+   "music_source": "",
+   "pgc_id": "",
+   "pgc_name": "",
+   "similiar_music_info": {
+    "original_song_id": "",
+    "original_song_name": ""
+   },
+   "ai_music_type": 0,
+   "ai_music_enter_from": "",
+   "lyric_type": 0,
+   "tts_task_id": "",
+   "tts_generate_scene": "",
+   "ai_music_generate_scene": 0,
+   "tts_benefit_info": {
+    "benefit_type": "none",
+    "benefit_log_id": "",
+    "benefit_log_extra": "",
+    "benefit_amount": -1
+   },
+   "tts_language_info": null
+  },
+  "extras": [
+   {
+    "category": "speeds",
+    "object": {
+     "id": "AD871B51-A6DB-40f6-8761-94068C0AA966",
+     "type": "speed",
+     "mode": 0,
+     "speed": 1.0,
+     "curve_speed": null
+    }
+   },
+   {
+    "category": "placeholder_infos",
+    "object": {
+     "id": "AE6610CA-0D6B-4e34-99FC-5B8EBBD01586",
+     "type": "placeholder_info",
+     "meta_type": "none",
+     "res_path": "",
+     "res_text": "",
+     "error_path": "",
+     "error_text": ""
+    }
+   },
+   {
+    "category": "beats",
+    "object": {
+     "id": "43E43AD5-6BA9-4b0e-BD4A-697D06BB6557",
+     "type": "beats",
+     "enable_ai_beats": false,
+     "gear": 404,
+     "gear_count": 0,
+     "mode": 404,
+     "user_beats": [],
+     "user_delete_ai_beats": null,
+     "ai_beats": {
+      "melody_url": "",
+      "melody_path": "",
+      "beats_url": "",
+      "beats_path": "",
+      "melody_percents": [
+       0.0
+      ],
+      "beat_speed_infos": []
+     }
+    }
+   },
+   {
+    "category": "sound_channel_mappings",
+    "object": {
+     "id": "C89AC123-62E7-4388-AE9F-AD45D8DCBFE2",
+     "type": "none",
+     "audio_channel_mapping": 0,
+     "is_config_open": false
+    }
+   },
+   {
+    "category": "vocal_separations",
+    "object": {
+     "id": "8DAB44C7-6AE7-47be-8636-C0CA44515F3E",
+     "type": "vocal_separation",
+     "choice": 0,
+     "removed_sounds": [],
+     "time_range": null,
+     "production_path": "",
+     "final_algorithm": "",
+     "enter_from": ""
+    }
+   }
+  ]
+ },
+ "text": {
+  "segment": {
+   "id": "E5AD8468-73A3-4118-B3F6-90583F973F7A",
+   "source_timerange": null,
+   "target_timerange": {
+    "start": 5333333,
+    "duration": 26966667
+   },
+   "render_timerange": {
+    "start": 0,
+    "duration": 0
+   },
+   "desc": "",
+   "state": 0,
+   "speed": 1.0,
+   "is_loop": false,
+   "is_tone_modify": false,
+   "reverse": false,
+   "intensifies_audio": false,
+   "cartoon": false,
+   "volume": 1.0,
+   "last_nonzero_volume": 1.0,
+   "clip": {
+    "scale": {
+     "x": 0.3162730423391869,
+     "y": 0.3162730423391869
+    },
+    "rotation": 0.0,
+    "transform": {
+     "x": -0.6338028169014085,
+     "y": -0.1621377170085907
+    },
+    "flip": {
+     "vertical": false,
+     "horizontal": false
+    },
+    "alpha": 1.0
+   },
+   "uniform_scale": {
+    "on": true,
+    "value": 1.0
+   },
+   "material_id": "B0E433EB-22D9-4d91-AEC9-29DF1776113D",
+   "extra_material_refs": [
+    "C348B3D3-59D0-4ad0-89DA-1C03B6952118"
+   ],
+   "render_index": 14000,
+   "keyframe_refs": [],
+   "enable_lut": false,
+   "enable_adjust": false,
+   "enable_hsl": false,
+   "visible": true,
+   "group_id": "",
+   "enable_color_curves": true,
+   "enable_hsl_curves": true,
+   "track_render_index": 1,
+   "hdr_settings": null,
+   "hdr_vivid_settings": null,
+   "enable_color_wheels": true,
+   "track_attribute": 0,
+   "is_placeholder": false,
+   "template_id": "",
+   "enable_smart_color_adjust": false,
+   "template_scene": "default",
+   "common_keyframes": [],
+   "caption_info": null,
+   "responsive_layout": {
+    "enable": false,
+    "target_follow": "",
+    "size_layout": 0,
+    "horizontal_pos_layout": 0,
+    "vertical_pos_layout": 0
+   },
+   "enable_color_match_adjust": false,
+   "enable_color_correct_adjust": false,
+   "enable_adjust_mask": false,
+   "raw_segment_id": "",
+   "lyric_keyframes": null,
+   "enable_video_mask": true,
+   "digital_human_template_group_id": "",
+   "color_correct_alg_result": "",
+   "source": "segmentsourcenormal",
+   "enable_mask_stroke": false,
+   "enable_mask_shadow": false,
+   "enable_color_adjust_pro": false,
+   "segment_color_tag": ""
+  },
+  "material": {
+   "recognize_task_id": "",
+   "id": "D4EB353F-280A-4177-B48A-C41D66A35ACA",
+   "name": "",
+   "recognize_text": "",
+   "recognize_model": "",
+   "punc_model": "",
+   "type": "text",
+   "content": "{\"text\":\"ONE  YEAR: Cai Lun, 105 AD.\\n\",\"styles\":[{\"fill\":{\"content\":{\"render_type\":\"solid\",\"solid\":{\"color\":[1,1,1]}}},\"font\":{\"path\":\"C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/7148699606082130433/9b03aa8db4f8d431e15f1660108d512b/Rubik-Bold.ttf\",\"id\":\"7148699606082130433\"},\"strokes\":[{\"content\":{\"render_type\":\"solid\",\"solid\":{\"color\":[0,0,0]}},\"width\":0.079999998211860657,\"mode\":0}],\"size\":15,\"range\":[0,28]}]}",
+   "base_content": "",
+   "words": {
+    "start_time": [],
+    "end_time": [],
+    "text": []
+   },
+   "current_words": {
+    "start_time": [],
+    "end_time": [],
+    "text": []
+   },
+   "global_alpha": 1.0,
+   "combo_info": {
+    "text_templates": []
+   },
+   "caption_template_info": {
+    "resource_id": "",
+    "third_resource_id": "",
+    "resource_name": "",
+    "category_id": "",
+    "category_name": "",
+    "effect_id": "",
+    "request_id": "",
+    "path": "",
+    "is_new": false,
+    "source_platform": 0
+   },
+   "layer_weight": 1,
+   "letter_spacing": 0.0,
+   "text_curve": null,
+   "text_loop_on_path": false,
+   "offset_on_path": 0.0,
+   "enable_path_typesetting": false,
+   "text_exceeds_path_process_type": 0,
+   "text_typesetting_paths": null,
+   "text_typesetting_paths_file": "",
+   "text_typesetting_path_index": 0,
+   "line_spacing": 0.02,
+   "has_shadow": false,
+   "shadow_color": "",
+   "shadow_alpha": 0.9,
+   "shadow_smoothing": 0.45,
+   "shadow_distance": 5.0,
+   "shadow_point": {
+    "x": 0.6363961030678928,
+    "y": -0.6363961030678928
+   },
+   "shadow_angle": -45.0,
+   "shadow_thickness_projection_enable": false,
+   "shadow_thickness_projection_angle": 0.0,
+   "shadow_thickness_projection_distance": 0.0,
+   "border_alpha": 1.0,
+   "border_color": "#000000",
+   "border_width": 0.07999999821186066,
+   "border_mode": 0,
+   "style_name": "",
+   "text_color": "#FFFFFF",
+   "text_alpha": 1.0,
+   "font_name": "",
+   "font_title": "none",
+   "font_size": 15.0,
+   "font_path": "C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/7148699606082130433/9b03aa8db4f8d431e15f1660108d512b/Rubik-Bold.ttf",
+   "font_id": "",
+   "font_resource_id": "7148699606082130433",
+   "initial_scale": 1.0,
+   "font_url": "",
+   "typesetting": 0,
+   "alignment": 1,
+   "line_feed": 1,
+   "use_effect_default_color": true,
+   "is_rich_text": false,
+   "shape_clip_x": false,
+   "shape_clip_y": false,
+   "ktv_color": "",
+   "text_to_audio_ids": [],
+   "bold_width": 0.0,
+   "italic_degree": 0,
+   "underline": false,
+   "underline_width": 0.05,
+   "underline_offset": 0.22,
+   "sub_type": 0,
+   "check_flag": 15,
+   "text_size": 30,
+   "font_category_name": "",
+   "font_source_platform": 1,
+   "font_third_resource_id": "",
+   "font_category_id": "",
+   "add_type": 0,
+   "operation_type": 0,
+   "recognize_type": 0,
+   "fonts": [
+    {
+     "id": "40364ED8-5F71-4f2d-8AAC-4D96A6EA6F53",
+     "resource_id": "7148699606082130433",
+     "third_resource_id": "",
+     "category_id": "",
+     "category_name": "",
+     "source_platform": 1,
+     "path": "C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/7148699606082130433/9b03aa8db4f8d431e15f1660108d512b/Rubik-Bold.ttf",
+     "effect_id": "7148699606082130433",
+     "title": "Rubik-Bold",
+     "team_id": "",
+     "file_uri": "",
+     "request_id": ""
+    }
+   ],
+   "background_color": "",
+   "background_alpha": 1.0,
+   "background_style": 0,
+   "background_round_radius": 0.0,
+   "background_width": 0.14,
+   "background_height": 0.14,
+   "background_vertical_offset": 0.0,
+   "background_horizontal_offset": 0.0,
+   "background_fill": "",
+   "single_char_bg_enable": false,
+   "single_char_bg_color": "",
+   "single_char_bg_alpha": 1.0,
+   "single_char_bg_round_radius": 0.3,
+   "single_char_bg_width": 0.0,
+   "single_char_bg_height": 0.0,
+   "single_char_bg_vertical_offset": 0.0,
+   "single_char_bg_horizontal_offset": 0.0,
+   "font_team_id": "",
+   "tts_auto_update": false,
+   "text_preset_resource_id": "",
+   "group_id": "",
+   "preset_id": "",
+   "preset_name": "",
+   "preset_category": "",
+   "preset_category_id": "",
+   "preset_index": 0,
+   "preset_has_set_alignment": false,
+   "force_apply_line_max_width": false,
+   "language": "",
+   "relevance_segment": [],
+   "original_size": [],
+   "fixed_width": -1.0,
+   "fixed_height": -1.0,
+   "autoAdaptCanvasEnabled": false,
+   "line_max_width": 0.82,
+   "oneline_cutoff": false,
+   "cutoff_postfix": "",
+   "subtitle_template_original_fontsize": 0.0,
+   "subtitle_keywords": null,
+   "inner_padding": -1.0,
+   "multi_language_current": "none",
+   "source_from": "",
+   "is_lyric_effect": false,
+   "lyric_group_id": "",
+   "lyrics_template": {
+    "resource_id": "",
+    "resource_name": "",
+    "panel": "",
+    "effect_id": "",
+    "path": "",
+    "category_id": "",
+    "category_name": "",
+    "request_id": ""
+   },
+   "is_batch_replace": false,
+   "is_words_linear": false,
+   "ssml_content": "",
+   "subtitle_keywords_config": null,
+   "sub_template_id": -1,
+   "translate_original_text": ""
+  },
+  "extras": [
+   {
+    "category": "material_animations",
+    "object": {
+     "id": "C348B3D3-59D0-4ad0-89DA-1C03B6952118",
+     "type": "sticker_animation",
+     "animations": [],
+     "multi_language_current": "none"
+    }
+   }
+  ]
+ },
+ "animations": {
+  "Fade In": {
+   "id": "6798320778182922760",
+   "type": "in",
+   "start": 0,
+   "duration": 500000,
+   "path": "C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/6798320778182922760/883ad04bd79b502aaa55b5d9b87175ea",
+   "platform": "all",
+   "resource_id": "6798320778182922760",
+   "third_resource_id": "6798320778182922760",
+   "source_platform": 1,
+   "name": "Fade In",
+   "category_id": "in",
+   "category_name": "in",
+   "panel": "video",
+   "material_type": "video",
+   "anim_adjust_params": null,
+   "request_id": "20260928221554B45A3FAC0CB216C62791"
+  },
+  "Fade Out": {
+   "id": "6798320902548230669",
+   "type": "out",
+   "start": 1653332,
+   "duration": 1500000,
+   "path": "C:/Users/chris/AppData/Local/CapCut/User Data/Cache/effect/6798320902548230669/c6f05ce62355b537be762550040bfc08",
+   "platform": "all",
+   "resource_id": "6798320902548230669",
+   "third_resource_id": "6798320902548230669",
+   "source_platform": 1,
+   "name": "Fade Out",
+   "category_id": "out_fav",
+   "category_name": "out_fav",
+   "panel": "video",
+   "material_type": "video",
+   "anim_adjust_params": null,
+   "request_id": ""
+  }
+ }
+}
